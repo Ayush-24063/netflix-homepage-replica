@@ -1,0 +1,209 @@
+/* Reset and basics */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background: black;
+}
+
+/* Background image container */
+.background {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url('netflixbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Dark overlay on background */
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+/* Navbar with logo */
+.nav {
+  position: relative;
+  z-index: 10;
+  height: 70px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* Main login form container */
+.login-container {
+  position: relative;
+  z-index: 10;
+  height: calc(100vh - 70px); /* full viewport minus navbar height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Login form box */
+.login-form {
+  background: rgba(0,0,0,0.75);
+  padding: 60px 68px 40px;
+  width: 320px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* Login form elements */
+.login-form h1 {
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+.login-form input {
+  width: 100%;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+  color: white;
+  font-size: 16px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 16px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.login-form button:hover {
+  background-color: #f40612;
+}
+
+.login-options {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #b3b3b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-options label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.login-options a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.login-options a:hover {
+  text-decoration: underline;
+}
+
+.signup-link {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #737373;
+}
+
+.signup-link a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.recaptcha {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.recaptcha a {
+  color: #0071eb;
+  text-decoration: none;
+}
+
+.recaptcha a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #161616;
+  color: #999;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 13px;
+  user-select: none;
+}
+
+.footer-question {
+  margin-bottom: 25px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px 40px;
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  color: #999;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.language-select {
+  background-color: #000;
+  border: 1px solid #333;
+  color: #999;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.region {
+  font-size: 12px;
+  color: #999;
+}
