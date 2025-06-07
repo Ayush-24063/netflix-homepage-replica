@@ -22,10 +22,6 @@ Author-Ayush Talpada
 - HTML5
 - CSS3
 
-## 📸 Screenshot
-
-![screenshot](./screenshot.jpg)
-
 ## 📚 What I Learned
 
 - How to build layouts using flexbox
