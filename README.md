@@ -14,7 +14,7 @@ Author-Ayush Talpada
 ## 🌐 Screenshot
 
 ![Website Screenshot](SS1.png)
-![Website Screenshot](SS2.png)
+![Website Screenshot](ss2.png)
 
 ## 📁 Features
 
