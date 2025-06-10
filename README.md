@@ -10,6 +10,12 @@ Author-Ayush Talpada
 
 🔗 [Click here to view it live](https://ayush-24063.github.io/netflix-homepage-replica/)
 
+
+## 🌐 Screenshot
+
+![Website Screenshot](SS1.png)
+![Website Screenshot](SS2.png)
+
 ## 📁 Features
 
 - Responsive layout
